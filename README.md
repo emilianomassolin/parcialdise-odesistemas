@@ -11,6 +11,12 @@ Ejecutar el  siguiente comando: python3 inicio.py
 Abrir postman y abrir el archivo que se encuentra en la carpeta collection
 ### 5
 En Postman, selecciona el  POST para enviar una secuencia de ADN y verifica si es mutante. Ingresa una secuencia de dna en el body de la solicitud y envíala.
-### 6
 Para obtener estadísticas, selecciona el request GET en Postman para ver el número de mutantes y no mutantes registrados en la base de datos.
-URL: http://127.0.0.1:5000/
+URL del postman : http://10.0.0.161:5000/
+### render
+## Para realizar un post:
+colocar la siguiente url en postman 
+https://parcialdise-odesistemas.onrender.com/mutant/
+## Para realizar un get de las estadisticas 
+colocar la siguiente url en postman
+https://parcialdise-odesistemas.onrender.com/stats/
